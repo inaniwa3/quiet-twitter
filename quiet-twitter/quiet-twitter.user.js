@@ -21,6 +21,6 @@ newStyle.appendChild(document.createTextNode(
   ".DashboardProfileCard-statValue{display:none !important;}"+  // ツイート、フォロー、フォロワー
   ".ProfileWTFAndTrends{display:none !important;}"+             // おすすめユーザー、トレンド
   ".ProfileNav-value{display:none !important;}"+                // ツイート、フォロー、フォロワー、お気に入り、リスト
-  ".js-mini-profile-stat{display:none !important;}"+            // ツイート、フォロー、フォロワー
+  ".ProfileCardStats-statValue{display:none !important;}"+      // ツイート、フォロー、フォロワー
   ".WhoToFollow{display:none !important;}"                      // おすすめユーザー
 ));
