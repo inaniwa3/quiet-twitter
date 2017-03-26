@@ -4,7 +4,7 @@
 // @description Hide some of the information on Twitter.
 // @include     http://twitter.com/*
 // @include     https://twitter.com/*
-// @version     1.3.0
+// @version     1.4.0
 // ==/UserScript==
 
 // References
@@ -23,5 +23,6 @@ newStyle.appendChild(document.createTextNode(
   ".ProfileNav-value{display:none !important;}"+                // ツイート、フォロー、フォロワー、お気に入り、リスト
   ".ProfileCardStats-statValue{display:none !important;}"+      // ツイート、フォロー、フォロワー
   ".WhoToFollow{display:none !important;}"+                     // おすすめユーザー
-  ".TweetImpressionsModule{display:none !important;}"           // Your Tweet activity
+  ".TweetImpressionsModule{display:none !important;}"+          // Your Tweet activity
+  ".LiveVideoHomePageModule{display:none !important;}"          // Live video
 ));
