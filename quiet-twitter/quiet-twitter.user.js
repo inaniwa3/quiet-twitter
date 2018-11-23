@@ -29,5 +29,5 @@ var text = ""
     ;
 
 var elem = document.createElement("style");
-document.getElementsByTagName("head")[0].appendChild(elem); 
+document.getElementsByTagName("head")[0].appendChild(elem);
 elem.appendChild(document.createTextNode(text));

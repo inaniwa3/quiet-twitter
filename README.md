@@ -14,5 +14,5 @@ After
 
 ## References
 
-[ツイッターのフォロー・フォロワー・ツイート数を非表示にする](http://www.jfkooya.com/jiyoo/2012/03/hide-the-number-of-followings-and-followers-and-tweets-of-you-on-twitter.html "ツイッターのフォロー・フォロワー・ツイート数を非表示にする")  
+[ツイッターのフォロー・フォロワー・ツイート数を非表示にする](https://www.jfkooya.com/jiyoo/2012/03/hide-the-number-of-followings-and-followers-and-tweets-of-you-on-twitter.html "ツイッターのフォロー・フォロワー・ツイート数を非表示にする")  
 [Hide Twitter Guff](https://chrome.google.com/webstore/detail/hide-twitter-guff/ebjehgoicideedhhnfjhfaidlpdhofod "Hide Twitter Guff")
