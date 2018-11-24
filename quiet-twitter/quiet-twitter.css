@@ -1,0 +1,16 @@
+/* number */
+.ProfileNav-value { display:none !important; }
+.ProfileCardStats-statValue { display:none !important; }
+.ProfileTweet-actionCountForPresentation { display:none !important; }
+.request-retweeted-popup strong { display:none !important; }
+.request-favorited-popup strong { display:none !important; }
+.rn-lrvibr span { display:none !important; }
+.MomentCapsuleLikesCount { display:none !important; }
+
+/* etc. */
+.wtf-module { display:none !important; }
+.Trends { display:none !important; }
+.TweetImpressionsModule { display:none !important; }
+.LiveVideoHomePageModuleContainer { display:none !important; }
+.RelatedUsers { display:none !important; }
+.js-translate-tweet { display:none !important; }
