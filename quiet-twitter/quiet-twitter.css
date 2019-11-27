@@ -24,10 +24,19 @@
  * for current UI (en)
  */
 
-div.css-1dbjc4n.r-1u4rsef.r-9cbz99.r-t23y2h.r-1phboty.r-rs99b7.r-15d164r.r-1udh08x { display:none !important; }
-div.css-1dbjc4n.r-14lw9ot.r-1tlfku8.r-t23y2h.r-1phboty.r-rs99b7.r-15d164r.r-1udh08x { display:none !important; }
+/* who to follow */
+div.css-1dbjc4n.r-1u4rsef.r-9cbz99.r-t23y2h.r-1phboty.r-rs99b7.r-ku1wi2.r-1bro5k0.r-1udh08x  { display:none !important; }
 
+/* trends */
+div.css-1dbjc4n.r-1u4rsef.r-9cbz99.r-t23y2h.r-1phboty.r-rs99b7.r-ku1wi2.r-1udh08x { display:none !important; }
+
+/* following, followers, reply, retweet, like */
 a span.css-901oao.css-16my406.r-1qd0xha.r-vw2c0b.r-ad9z0x.r-bcqeeo.r-qvutc0 { display:none !important; }
 span.css-901oao.css-16my406.r-1qd0xha.r-ad9z0x.r-1n0xq6e.r-bcqeeo.r-d3hbe1.r-1wgg2b2.r-axxi2z.r-qvutc0 { display:none !important; }
 
-div.css-1dbjc4n.r-1ebgqk7.r-18u37iz.r-1t68eob.r-u8s1d.r-184en5c > div:nth-child(2) > div > div  { display:none !important; }
+/* video view */
+div.css-1dbjc4n.r-1ebgqk7.r-18u37iz.r-1t68eob.r-u8s1d.r-184en5c > div:nth-child(2) > div > div { display:none !important; }
+div.r-1p0dtai.r-1pi2tsx.r-1d2f490.r-u8s1d.r-ipm5af.r-13qz1uu > div > div > div > div:nth-child(2) > span > div > div > div > div > div > span { display:none !important; }
+
+/* list header image */
+div.css-1dbjc4n.r-1jgb5lz.r-1ye8kvj.r-13qz1uu > div > section > div > div > div > div:nth-child(1) > div > div.css-1dbjc4n.r-1adg3ll.r-1udh08x { display:none !important; }
