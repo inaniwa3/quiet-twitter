@@ -17,6 +17,10 @@ aside[aria-label="Who to follow"] { display:none !important; }
 [data-testid=like]      > div:first-child > div:nth-child(2) { display:none !important; }
 [data-testid=unlike]    > div:first-child > div:nth-child(2) { display:none !important; }
 
+/* Retweets, Likes */
+[href$="/retweets"] > div:first-child { display:none !important; }
+[href$="/likes"]    > div:first-child { display:none !important; }
+
 /* video view */
 [data-testid=previewInterstitial] > div:first-child > div:nth-child(2) { display:none !important; }
 [data-testid=viewCount] { display:none !important; }
