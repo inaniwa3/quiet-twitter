@@ -1,50 +1,28 @@
-/*
- * for previous UI
- */
+/* Trends for you */
+div[aria-label="Timeline: Trending now"] { display:none !important; }
+/* [data-testid=trend] { display:none !important; } */
 
-/* number */
-.ProfileNav-value { display:none !important; }
-.ProfileCardStats-statValue { display:none !important; }
-.ProfileTweet-actionCountForPresentation { display:none !important; }
-.request-retweeted-popup strong { display:none !important; }
-.request-favorited-popup strong { display:none !important; }
-.rn-lrvibr span { display:none !important; }
-.MomentCapsuleLikesCount { display:none !important; }
-.MomentCapsuleLikesFacepile-countNum { display:none !important; }
+/* Who to follow, You might like */
+aside[aria-label="Who to follow"] { display:none !important; }
 
-/* etc. */
-.wtf-module { display:none !important; }
-.Trends { display:none !important; }
-.TweetImpressionsModule { display:none !important; }
-.LiveVideoHomePageModuleContainer { display:none !important; }
-.RelatedUsers { display:none !important; }
-.js-translate-tweet { display:none !important; }
+/* following, followers */
+[href$="/following"] > span:first-child { display:none !important; }
+[href$="/followers"] > span:first-child { display:none !important; }
+[href$="/followers"][role="link"] { pointer-events: none; }
 
-/*
- * for current UI (en)
- */
-
-/* who to follow */
-div.css-1dbjc4n.r-1u4rsef.r-9cbz99.r-t23y2h.r-1phboty.r-rs99b7.r-ku1wi2.r-1bro5k0.r-1udh08x  { display:none !important; }
-
-/* trends */
-div.css-1dbjc4n.r-1u4rsef.r-9cbz99.r-t23y2h.r-1phboty.r-rs99b7.r-ku1wi2.r-1udh08x { display:none !important; }
-
-/* following, followers, reply, retweet, like */
-a span.css-901oao.css-16my406.r-1qd0xha.r-vw2c0b.r-ad9z0x.r-bcqeeo.r-qvutc0 { display:none !important; }
-span.css-901oao.css-16my406.r-1qd0xha.r-ad9z0x.r-1n0xq6e.r-bcqeeo.r-d3hbe1.r-1wgg2b2.r-axxi2z.r-qvutc0 { display:none !important; }
+/* reply, retweet, like */
+[data-testid=reply]     > div:first-child > div:nth-child(2) { display:none !important; }
+[data-testid=retweet]   > div:first-child > div:nth-child(2) { display:none !important; }
+[data-testid=unretweet] > div:first-child > div:nth-child(2) { display:none !important; }
+[data-testid=like]      > div:first-child > div:nth-child(2) { display:none !important; }
+[data-testid=unlike]    > div:first-child > div:nth-child(2) { display:none !important; }
 
 /* video view */
-div.css-1dbjc4n.r-1ebgqk7.r-18u37iz.r-1t68eob.r-u8s1d.r-184en5c > div:nth-child(2) > div > div { display:none !important; }
-div.r-1p0dtai.r-1pi2tsx.r-1d2f490.r-u8s1d.r-ipm5af.r-13qz1uu > div > div > div > div:nth-child(2) > span > div > div > div > div > div > span { display:none !important; }
+[data-testid=previewInterstitial] > div:first-child > div:nth-child(2) { display:none !important; }
+[data-testid=viewCount] { display:none !important; }
 
 /* list header image */
-div.css-1dbjc4n.r-1jgb5lz.r-1ye8kvj.r-13qz1uu > div > section > div > div > div > div:nth-child(1) > div > div.css-1dbjc4n.r-1adg3ll.r-1udh08x { display:none !important; }
+[aria-label="Timeline: List"] > div:first-child > div:first-child  > div:first-child > div:first-child > div:first-child { display:none !important; }
 
-/*
- * for current UI (ja)
- */
-
-/* following, followers, reply, retweet, like */
-a span.css-901oao.css-16my406.r-gwet1z.r-vw2c0b.r-ad9z0x.r-bcqeeo.r-qvutc0 { display:none !important; }
-span.css-901oao.css-16my406.r-gwet1z.r-ad9z0x.r-1n0xq6e.r-bcqeeo.r-d3hbe1.r-1wgg2b2.r-axxi2z.r-qvutc0 { display:none !important; }
+/* Follows you */
+div.css-901oao.css-bfa6kz.r-e84r5y.r-1f0042m.r-1re7ezh.r-1q142lx.r-1qd0xha.r-n6v787.r-16dba41.r-1sf4r6n.r-1f6r7vd.r-bcqeeo.r-ou255f.r-qvutc0[dir=auto] { display:none !important; }
