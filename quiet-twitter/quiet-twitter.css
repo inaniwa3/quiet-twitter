@@ -22,7 +22,7 @@ aside[aria-label="Who to follow"] { display:none !important; }
 [href$="/likes"][role="link"] > div:first-child { display:none !important; }
 
 /* video view */
-[data-testid=previewInterstitial] > div:first-child > div:nth-child(2) { display:none !important; }
+[data-testid=previewInterstitial] > div:nth-child(2) > div:nth-child(2) { display:none !important; }
 [data-testid=viewCount] { display:none !important; }
 
 /* list header image */
