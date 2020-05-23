@@ -19,14 +19,12 @@ aside[aria-label="Who to follow"] { display:none !important; }
 
 /* Retweets, Likes */
 [href$="/retweets"]           > div:first-child { display:none !important; }
+[href$="/with_comments"]      > div:first-child { display:none !important; }
 [href$="/likes"][role="link"] > div:first-child { display:none !important; }
 
 /* video view */
 [data-testid=previewInterstitial] > div:nth-child(2) > div:nth-child(2) { display:none !important; }
 [data-testid=viewCount] { display:none !important; }
-
-/* list header image */
-[aria-label="Timeline: List"] > div:first-child > div:first-child  > div:first-child > div:first-child > div:first-child { display:none !important; }
 
 /* Follows you */
 div.css-901oao.css-bfa6kz.r-e84r5y.r-1f0042m.r-1re7ezh.r-1q142lx.r-1qd0xha.r-n6v787.r-16dba41.r-1sf4r6n.r-1f6r7vd.r-bcqeeo.r-ou255f.r-qvutc0[dir=auto] { display:none !important; }
