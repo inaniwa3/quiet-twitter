@@ -16,3 +16,6 @@
 [href$="/retweets"]           > div:first-child { display:none !important; }
 [href$="/with_comments"]      > div:first-child { display:none !important; }
 [href$="/likes"][role="link"] > div:first-child { display:none !important; }
+
+/* video view */
+[data-testid=previewInterstitial] > div:nth-child(2) > div:nth-child(2) { display:none !important; }
