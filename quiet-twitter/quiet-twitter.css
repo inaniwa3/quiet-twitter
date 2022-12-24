@@ -1,16 +1,10 @@
-/* Trends for you */
-div[aria-label="Timeline: Trending now"] { display:none !important; }
-/* [data-testid=trend] { display:none !important; } */
-
-/* Who to follow, You might like */
-aside[aria-label="Who to follow"] { display:none !important; }
-
 /* following, followers */
 [href$="/following"] > span:first-child { display:none !important; }
 [href$="/followers"] > span:first-child { display:none !important; }
 [href$="/followers"][role="link"] { pointer-events: none; }
 
-/* reply, retweet, like */
+/* analytics, reply, retweet, like */
+[href$="/analytics"]    > div:first-child > div:nth-child(2) { display:none !important; }
 [data-testid=reply]     > div:first-child > div:nth-child(2) { display:none !important; }
 [data-testid=retweet]   > div:first-child > div:nth-child(2) { display:none !important; }
 [data-testid=unretweet] > div:first-child > div:nth-child(2) { display:none !important; }
@@ -21,15 +15,3 @@ aside[aria-label="Who to follow"] { display:none !important; }
 [href$="/retweets"]           > div:first-child { display:none !important; }
 [href$="/with_comments"]      > div:first-child { display:none !important; }
 [href$="/likes"][role="link"] > div:first-child { display:none !important; }
-
-/* video view */
-[data-testid=previewInterstitial] > div:nth-child(2) > div:nth-child(2) { display:none !important; }
-[data-testid=viewCount] { display:none !important; }
-div.css-901oao.css-bfa6kz.r-jwli3a.r-1qd0xha.r-a023e6.r-16dba41.r-ad9z0x.r-5f2r5o.r-bcqeeo.r-qvutc0[dir=auto] { display:none !important; }
-
-/* Follows you */
-div.css-901oao.css-bfa6kz.r-1awozwy.r-z1a2ur.r-z2wwpe.r-m0bqgq.r-6koalj.r-1q142lx.r-1qd0xha.r-n6v787.r-16dba41.r-1cwl3u0.r-13hce6t.r-bcqeeo.r-s1qlax.r-qvutc0[dir=auto] { display:none !important; }
-
-/* Followed by */
-div.css-1dbjc4n.r-18u37iz.r-1q142lx { display:none !important; }
-div.css-901oao.r-m0bqgq.r-1wbh5a2.r-1qd0xha.r-n6v787.r-16dba41.r-1sf4r6n.r-1n0xq6e.r-bcqeeo.r-qvutc0[dir=auto] { display:none !important; }
