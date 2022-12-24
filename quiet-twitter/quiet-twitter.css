@@ -12,6 +12,7 @@
 [data-testid=unlike]    > div:first-child > div:nth-child(2) { display:none !important; }
 
 /* Retweets, Likes */
+[href$="/analytics"]          > div:first-child { display:none !important; }
 [href$="/retweets"]           > div:first-child { display:none !important; }
 [href$="/with_comments"]      > div:first-child { display:none !important; }
 [href$="/likes"][role="link"] > div:first-child { display:none !important; }
