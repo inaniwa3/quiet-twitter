@@ -4,15 +4,16 @@
 [href$="/followers"][role="link"] { pointer-events: none; }
 
 /* analytics, reply, retweet, like */
-/* [href$="/analytics"]    > div:first-child > div:nth-child(2) { display:none !important; } */
+[href$="/analytics"]    > div:first-child > div:nth-child(2) { display:none !important; }
 [data-testid=reply]     > div:first-child > div:nth-child(2) { display:none !important; }
 [data-testid=retweet]   > div:first-child > div:nth-child(2) { display:none !important; }
 [data-testid=unretweet] > div:first-child > div:nth-child(2) { display:none !important; }
 [data-testid=like]      > div:first-child > div:nth-child(2) { display:none !important; }
 [data-testid=unlike]    > div:first-child > div:nth-child(2) { display:none !important; }
 
-/* Views, Retweets, Quote Tweets, Likes */
-[href$="/analytics"]          > div:first-child { display:none !important; }
+/* Views */
+div:has(> a > time) > span:nth-child(3) > span > div { display:none !important; }
+/* Retweets, Quote Tweets, Likes */
 [href$="/retweets"]           > div:first-child { display:none !important; }
 [href$="/with_comments"]      > div:first-child { display:none !important; }
 [href$="/likes"][role="link"] > div:first-child { display:none !important; }
