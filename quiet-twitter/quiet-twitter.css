@@ -1,7 +1,7 @@
 /* Following, Followers */
 [href$="/following"] > span:first-child { display:none !important; }
-[href$="/followers"] > span:first-child { display:none !important; }
-[href$="/followers"][role="link"] { pointer-events: none; }
+[href$="/verified_followers"] > span:first-child { display:none !important; }
+[href$="/verified_followers"][role="link"] { pointer-events: none; }
 
 /* analytics, reply, retweet, like */
 [href$="/analytics"]    > div:first-child > div:nth-child(2) { display:none !important; }
