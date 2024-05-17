@@ -1,11 +1,11 @@
 {
   "manifest_version": 2,
   "name": "Quiet Twitter",
-  "version": "7.5.0",
+  "version": "7.6.0",
   "description": "Hide some of the information on Twitter.",
   "content_scripts": [
     {
-      "matches": [ "https://twitter.com/*" ],
+      "matches": [ "https://twitter.com/*", "https://x.com/*" ],
       "run_at": "document_start",
       "css": [ "quiet-twitter.css" ]
     }
