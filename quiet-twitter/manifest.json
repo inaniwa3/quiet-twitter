@@ -1,7 +1,7 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
   "name": "Quiet Twitter",
-  "version": "7.6.0",
+  "version": "8.0.0",
   "description": "Hide some of the information on Twitter.",
   "content_scripts": [
     {
@@ -9,5 +9,9 @@
       "run_at": "document_start",
       "css": [ "quiet-twitter.css" ]
     }
+  ],
+  "host_permissions": [
+    "https://twitter.com/*",
+    "https://x.com/*"
   ]
 }
